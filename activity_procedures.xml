@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/injury_name_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:padding="30sp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/procedure_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textSize="25sp"
+        android:padding="15sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30sp"/>
+
+</LinearLayout>
